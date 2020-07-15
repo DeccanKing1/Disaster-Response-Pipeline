@@ -154,7 +154,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
     """
     
     y_pred_test = model.predict(X_test)
-    print(classification_report(Y_test.values, y_pred_test))
+    print(classification_report(Y_test.values, y_pred_test, target_names = category_names))
 
 def save_model(model, model_filepath):
     """ Save model as pickle file"""
