@@ -27,7 +27,8 @@ nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
 
 def load_data(database_filepath):
     
-      """
+    
+    """
     Function loads data from databse file
     
     Arguments:
@@ -56,6 +57,7 @@ def load_data(database_filepath):
     
 def tokenize(text):
     
+    
     """
     Tokenizer function to make data ready for NLP task
     
@@ -81,7 +83,7 @@ def tokenize(text):
     return clean_tokens
 
 class StartingVerbExtractor(BaseEstimator, TransformerMixin):
-     """
+    """
     Starting Verb Extractor class
     
     This class extract the starting verb of a sentence,
@@ -136,9 +138,7 @@ def build_model():
         }         
     cv = GridSearchCV(pipeline, param_grid = parameters)
     return cv
-    
-    
-    return pipeline
+
     
     
     
@@ -155,14 +155,11 @@ def evaluate_model(model, X_test, Y_test, category_names):
     
     y_pred_test = model.predict(X_test)
     print(classification_report(Y_test.values, y_pred_test))
-    
-    
-
 
 def save_model(model, model_filepath):
     """ Save model as pickle file"""
     import pickle
-    pickle.dump(model, open('model.pkl', 'wb'))
+    pickle.dump(model, open(model_filepath, 'wb'))
 
 
 def main():
