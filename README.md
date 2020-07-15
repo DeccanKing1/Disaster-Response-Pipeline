@@ -10,7 +10,7 @@ Steps to run the project:
 3. Run run.py to redirect to webapplication
   - point location of pickle file from train.py output
   - Open separate terminal window and run env|grep WORK
-  - From the output of that, put in the URL that will replace https://SPACEID-3001.SPACEDOMAIN
+  - From the output you get replace the SPACEID and SPACEDOMAIN field in the following URL and you can access the webapp https://SPACEID-3001.SPACEDOMAIN
 
 ## Overview of the project
 
