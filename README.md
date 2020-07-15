@@ -4,7 +4,7 @@ appropriate department and the deploying solution to webapp including data visua
 
 
 
-Steps to run the project:
+### Steps to run the project:
 1. Run process_data.py to export data to a database file (will hav to mention location of message data)
 2. Run train.py to export machine learning model to pickle file (give location of database file from process_data.py ETL output)
 3. Run run.py to redirect to webapplication
@@ -20,13 +20,13 @@ This project required 3 steps:
   3. Create web aplication that can show graphs of overviews of the messages data, as well as a text bar that could read a message and correctly classify the message to corrct classes
 
 ## Data
-## Categories of messages (disaster_categories.csv)
+### Categories of messages (disaster_categories.csv)
 CSV of categories of all messages (36 possible categories)
 
-## Messages (disaster_messages.csv)
+### Messages (disaster_messages.csv)
 CSV file of all disaster messages
 
-## Database file (DisasterResponse.db)
+### Database file (DisasterResponse.db)
 Database file that is the output of the ETL section
   
   
