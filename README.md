@@ -20,11 +20,14 @@ This project required 3 steps:
   3. Create web aplication that can show graphs of overviews of the messages data, as well as a text bar that could read a message and correctly classify the message to corrct classes
 
 ## Data
-#### Categories of messages (disaster_categories.csv): CSV of categories of all messages (36 possible categories)
+#### 1. Categories of messages (disaster_categories.csv): 
+CSV of categories of all messages (36 possible categories)
 
-#### Messages (disaster_messages.csv):CSV file of all disaster messages
+#### 2. Messages (disaster_messages.csv):
+CSV file of all disaster messages
 
-#### Database file (DisasterResponse.db):Database file that is the output of the ETL section
+#### 3. Database file (DisasterResponse.db):
+Database file that is the output of the ETL section
   
   
 ## ETL Section (process_data.py)
