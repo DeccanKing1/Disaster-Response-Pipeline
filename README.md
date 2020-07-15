@@ -1,7 +1,9 @@
-# Disaster-Response-Project
-YUsing ETL pipeline and NLP pipeline as part of disaster response to solve multiclass multioutput problem which will classify the message sent during disaster to 
+# Disaster-Response-Project:
+Using ETL pipeline and NLP pipeline as part of disaster response to solve multiclass multioutput problem which will classify the message sent during disaster to 
 appropriate department and the deploying solution to webapp including data visualisation.
 
+# Project Ovwerview :
+In this project, we analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. A data set containing real messages that were sent during disaster events is in messages dataset. We will be creating a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.  Project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. Once we get classification that department will get notified to that message so that proper help can be sent there immidiately. 
 
 
 ### Steps to run the project:
